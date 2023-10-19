@@ -26,7 +26,7 @@ body {
   width: 100%;
   position: fixed;
   z-index: 100;
-  background-size: 30%;
+  background-size: 90%;
 }
 html {
   scroll-behavior: smooth;
