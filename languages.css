@@ -21,6 +21,7 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 100;
+  background-size: 30%;
 }
 #nav-img {
   width: 160px;
