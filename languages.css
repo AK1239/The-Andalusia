@@ -16,12 +16,12 @@ nav {
   margin-bottom: 20px;
 }
 #preloader {
-  background: white url(images/preloader.gif) no-repeat center center;
+  background: white url(images/preloader2.gif) no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 100;
-  background-size: 40%;
+  background-size: 20%;
 }
 #nav-img {
   width: 160px;
