@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Browse All Short Courses!</title>
+    <meta
+      name="description"
+      content="Explore a variety of short courses at Andalusia Training Center, including Basic Computer Application, Graphic Design, Computer Programming, Website Development, Tally & Accounting, and Quickbooks. Enhance your skills with our expert-led courses. Join now for quality education and affordable prices."
+    />
+    <title>Short Courses at Andalusia Training Center!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -13,14 +23,23 @@
     />
     <link rel="icon" href="images/logo.webp" />
     <link rel="stylesheet" href="shortcourse.css" />
-    <link rel="stylesheet" href="./plugins/bootstrap.min.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CDXK08SBNT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-CDXK08SBNT");
+    </script>
   </head>
   <body>
     <div id="preloader"></div>
     <nav class="navbar navbar-expand-md bg-light navbar-light py-2">
       <div class="container">
         <a href="index.html" class="navbar-brand">
-          <img src="images/logotransparent.webp" alt="" id="nav-img" />
+          <img src="images/logotransparent.webp" alt="Andalusia Training Center Logo" id="nav-img" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
@@ -50,7 +69,7 @@
     <section class="cardds">
       <div class="card-groups">
         <div class="cardd">
-          <img src="./images/comp.webp" class="card-image" alt="..." />
+          <img src="./images/comp.webp" class="card-image" alt="Basic Computer Course" />
           <div class="card-content">
             <h2>Basic Computer Application</h2>
             <div class="card-text">
@@ -63,7 +82,7 @@
           </div>
         </div>
         <div class="cardd">
-          <img src="./images/gd.webp" class="card-image" alt="..." />
+          <img src="./images/gd.webp" class="card-image" alt="Basic Graphic Design" />
           <div class="card-content">
             <h2>Basic Graphics Design</h2>
             <div class="card-text" id="card-special">
@@ -76,11 +95,11 @@
           </div>
         </div>
         <div class="cardd">
-          <img src="./images/prog.webp" class="card-image" alt="..." />
+          <img src="./images/prog.webp" class="card-image" alt="Basic Commputer Programming" />
           <div class="card-content">
             <h2>Basic Computer Programming</h2>
             <div class="card-text">
-              <span class="textt"> Third Row, Commputer Programming, OOP (Object Oriented Programming). </span>
+              <span class="textt"> Third Row, Computer Programming, OOP (Object Oriented Programming). </span>
             </div>
             <div class="course-details">
               <div class="details duration">7 Weeks</div>
@@ -89,7 +108,7 @@
           </div>
         </div>
         <div class="cardd">
-          <img src="./images/web.webp" class="card-image contain" alt="..." />
+          <img src="./images/web.webp" class="card-image contain" alt="Website Development Course" />
           <div class="card-content">
             <h2>Website Development</h2>
             <div class="card-text">
@@ -102,7 +121,7 @@
           </div>
         </div>
         <div class="cardd">
-          <img src="./images/tally-rgt-img.webp" class="card-image contain" alt="..." />
+          <img src="./images/tally-rgt-img.webp" class="card-image contain" alt="Basic Tally & Accounting" />
           <div class="card-content">
             <h2>Basic Tally & Accounting</h2>
             <div class="card-text">
@@ -115,7 +134,7 @@
           </div>
         </div>
         <div class="cardd">
-          <img src="./images/quic.webp" class="card-image contain" alt="..." />
+          <img src="./images/quic.webp" class="card-image contain" alt="Quickbooks" />
           <div class="card-content">
             <h2>Quickbooks</h2>
             <div class="card-text">
@@ -151,20 +170,34 @@
           </div>
           <div class="footer-col">
             <h4>Location</h4>
-            <ul style="list-style: none">
-              <li>Mafia/Swahili Street</li>
-              <li>Blg No, 60, 4th Floor, Kariakoo</li>
-              <br />
-              <li>Upanga Branch</li>
-              <li>Mfaume Street, House No.26</li>
+            <ul>
+              <li>
+                <strong>Mafia/Swahili Street</strong><br />
+                Blg No, 60, 4th Floor, Kariakoo
+              </li>
+              <li>
+                <strong>Upanga Branch</strong><br />
+                Mfaume Street, House No.26
+              </li>
             </ul>
           </div>
           <div class="footer-col">
             <h4>Social Links</h4>
             <div class="social-links">
-              <a href="https://www.facebook.com/p/Andalusia-Training-Center-100065165375777/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://wa.me/+255786960747" target="_blank"><i class="fab fa-whatsapp"></i></a>
-              <a href="https://www.instagram.com/andalusia_tc/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a
+                href="https://www.facebook.com/p/Andalusia-Training-Center-100065165375777/"
+                target="_blank"
+                aria-label="Visit Andalusia Training Center on Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <a href="https://wa.me/+255786960747" target="_blank" aria-label="Contact Andalusia Training Center on WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+
+              <a href="https://www.instagram.com/andalusia_tc/?hl=en" target="_blank" aria-label="Follow Andalusia Training Center on Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
           </div>
         </div>
